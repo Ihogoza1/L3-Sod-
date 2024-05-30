@@ -11,3 +11,7 @@
 8. MBANZA Gad Prince
 9. NGABONZIZA Nur
 10. IHOGOZA Dolante
+11. HIRWA Abijuru Bernon
+12. UWIDUHAYE Henriette
+13. RUSARO Gloria
+14. UKWISHATSE Denyse
