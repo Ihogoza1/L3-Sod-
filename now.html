@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    :root{
+        --bg-color: skyblue;
+        --h2-color: rgb(63, 145, 63);
+    }
+    body{
+        background-color: var(--bg-color);
+    }
+    h2{
+        color: var(--h2-color);
+    }
+    p{
+        border: solid;
+        border-color: black;
+        margin: 20px;
+        animation-name: kevin;
+        animation-duration: 10s;
+        animation-timing-function:i ;
+        animation-iteration-count: infinite;
+    }
+    @keyframes kevin{
+        0%{ border-color: bisque;}
+        50%{ border-color: brown;}
+        100%{ border-color: blue;}
+    }
+    .animation{
+        height: 100px;
+        width: 500px;
+       background-color: black;
+       animation-name: dolante;
+       animation-duration:  2s;
+       animation-iteration-count: infinite;
+
+    }
+    @keyframes dolante{
+        0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+    div{
+        background-color: black;
+        height: 200px;
+        width: 200px;
+        transition-property: transform;
+        transition-duration: 3s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+        margin-top: 20px;
+    }
+    div:hover{
+        transform: translatey(40px);
+        background-color: blue;
+    }
+    </style>
+    </head>
+    <body>
+        <h2>hello word</h2>
+        <p>gdyyfgyagdydgygdekewdgcuyatftggldtdyuglof
+            yuudgfyagwiihgfiubnwegfuahuegfygpawgwfy
+            fhuhaulhfupqhyyjbfsdhauhgfqhufuhfuqhfuq
+            uwefhwuhfh  vbhewifuwehiqpjheufheuhupwgfewyu
+            jihwfbjihfpaaaahuiwiwehowwhfehueglahuweefhgiahdgfc
+            kjddslahahhfiuajhhfuhfoisajiohfhhweuweuyyriwuridosja
+            uihfuhfiihfijkkkjhfdshipajhfjiejweuwhfrioirpweeufueeeeeeeyr
+            jn ikjodojgoidjgpo'oopjosjoipjoijhoi;jdidhghhuhujfjgheruies
+        </p>
+        <div class="animation"></div>
+        <div></div>
+</body>
+</html>
